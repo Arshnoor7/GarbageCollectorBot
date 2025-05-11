@@ -1,0 +1,11 @@
+# data.yaml file for YOLO Garbage Classification Dataset
+
+# Path to the training and validation data
+train: images/
+val: images/
+
+# Number of classes
+nc: 7
+
+# Class names
+names: ['cardboard', 'miscellaneous', 'organic', 'paper', 'glass', 'metal', 'plastic']
